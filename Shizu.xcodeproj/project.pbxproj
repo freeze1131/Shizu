@@ -36,6 +36,7 @@
 		9400F0052B76989700D42814 /* ten.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9400EFFA2B76989700D42814 /* ten.aiff */; };
 		9400F0062B76989700D42814 /* two.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9400EFFB2B76989700D42814 /* two.aiff */; };
 		9400F0072B76989700D42814 /* one.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9400EFFC2B76989700D42814 /* one.aiff */; };
+		9400F0092B76998C00D42814 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9400F0082B76998C00D42814 /* GameViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +89,7 @@
 		9400EFFA2B76989700D42814 /* ten.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = ten.aiff; sourceTree = "<group>"; };
 		9400EFFB2B76989700D42814 /* two.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = two.aiff; sourceTree = "<group>"; };
 		9400EFFC2B76989700D42814 /* one.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = one.aiff; sourceTree = "<group>"; };
+		9400F0082B76998C00D42814 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 		9400EFD72B76914300D42814 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				9400F0082B76998C00D42814 /* GameViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -406,6 +409,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9400F0092B76998C00D42814 /* GameViewModel.swift in Sources */,
 				9400EFAD2B768CA500D42814 /* ContentView.swift in Sources */,
 				9400EFDD2B76965300D42814 /* RandomInt.swift in Sources */,
 				9400EFDA2B76916400D42814 /* GameModel.swift in Sources */,
