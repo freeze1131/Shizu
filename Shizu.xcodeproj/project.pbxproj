@@ -17,6 +17,25 @@
 		9400EFD52B768CE400D42814 /* Max.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9400EFD42B768CE400D42814 /* Max.swift */; };
 		9400EFDA2B76916400D42814 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9400EFD92B76916400D42814 /* GameModel.swift */; };
 		9400EFDD2B76965300D42814 /* RandomInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9400EFDC2B76965300D42814 /* RandomInt.swift */; };
+		9400EFE52B76986C00D42814 /* weak.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9400EFE22B76986B00D42814 /* weak.aiff */; };
+		9400EFE62B76986C00D42814 /* incorrectAnswer.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9400EFE32B76986C00D42814 /* incorrectAnswer.aiff */; };
+		9400EFE72B76986C00D42814 /* OhNo.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9400EFE42B76986C00D42814 /* OhNo.aiff */; };
+		9400EFED2B76988800D42814 /* yes.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9400EFE82B76988800D42814 /* yes.aiff */; };
+		9400EFEE2B76988800D42814 /* correct.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9400EFE92B76988800D42814 /* correct.aiff */; };
+		9400EFEF2B76988800D42814 /* awesome.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9400EFEA2B76988800D42814 /* awesome.aiff */; };
+		9400EFF02B76988800D42814 /* whoop.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9400EFEB2B76988800D42814 /* whoop.aiff */; };
+		9400EFF12B76988800D42814 /* bell.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9400EFEC2B76988800D42814 /* bell.aiff */; };
+		9400EFFD2B76989700D42814 /* three.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9400EFF22B76989700D42814 /* three.aiff */; };
+		9400EFFE2B76989700D42814 /* four.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9400EFF32B76989700D42814 /* four.aiff */; };
+		9400EFFF2B76989700D42814 /* nine.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9400EFF42B76989700D42814 /* nine.aiff */; };
+		9400F0002B76989700D42814 /* six.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9400EFF52B76989700D42814 /* six.aiff */; };
+		9400F0012B76989700D42814 /* seven.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9400EFF62B76989700D42814 /* seven.aiff */; };
+		9400F0022B76989700D42814 /* eight.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9400EFF72B76989700D42814 /* eight.aiff */; };
+		9400F0032B76989700D42814 /* zero.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9400EFF82B76989700D42814 /* zero.aiff */; };
+		9400F0042B76989700D42814 /* five.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9400EFF92B76989700D42814 /* five.aiff */; };
+		9400F0052B76989700D42814 /* ten.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9400EFFA2B76989700D42814 /* ten.aiff */; };
+		9400F0062B76989700D42814 /* two.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9400EFFB2B76989700D42814 /* two.aiff */; };
+		9400F0072B76989700D42814 /* one.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9400EFFC2B76989700D42814 /* one.aiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +69,25 @@
 		9400EFD42B768CE400D42814 /* Max.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Max.swift; sourceTree = "<group>"; };
 		9400EFD92B76916400D42814 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
 		9400EFDC2B76965300D42814 /* RandomInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomInt.swift; sourceTree = "<group>"; };
+		9400EFE22B76986B00D42814 /* weak.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = weak.aiff; sourceTree = "<group>"; };
+		9400EFE32B76986C00D42814 /* incorrectAnswer.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = incorrectAnswer.aiff; sourceTree = "<group>"; };
+		9400EFE42B76986C00D42814 /* OhNo.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = OhNo.aiff; sourceTree = "<group>"; };
+		9400EFE82B76988800D42814 /* yes.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = yes.aiff; sourceTree = "<group>"; };
+		9400EFE92B76988800D42814 /* correct.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = correct.aiff; sourceTree = "<group>"; };
+		9400EFEA2B76988800D42814 /* awesome.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = awesome.aiff; sourceTree = "<group>"; };
+		9400EFEB2B76988800D42814 /* whoop.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = whoop.aiff; sourceTree = "<group>"; };
+		9400EFEC2B76988800D42814 /* bell.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = bell.aiff; sourceTree = "<group>"; };
+		9400EFF22B76989700D42814 /* three.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = three.aiff; sourceTree = "<group>"; };
+		9400EFF32B76989700D42814 /* four.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = four.aiff; sourceTree = "<group>"; };
+		9400EFF42B76989700D42814 /* nine.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = nine.aiff; sourceTree = "<group>"; };
+		9400EFF52B76989700D42814 /* six.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = six.aiff; sourceTree = "<group>"; };
+		9400EFF62B76989700D42814 /* seven.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = seven.aiff; sourceTree = "<group>"; };
+		9400EFF72B76989700D42814 /* eight.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = eight.aiff; sourceTree = "<group>"; };
+		9400EFF82B76989700D42814 /* zero.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = zero.aiff; sourceTree = "<group>"; };
+		9400EFF92B76989700D42814 /* five.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = five.aiff; sourceTree = "<group>"; };
+		9400EFFA2B76989700D42814 /* ten.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = ten.aiff; sourceTree = "<group>"; };
+		9400EFFB2B76989700D42814 /* two.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = two.aiff; sourceTree = "<group>"; };
+		9400EFFC2B76989700D42814 /* one.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = one.aiff; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +138,7 @@
 		9400EFA92B768CA500D42814 /* Shizu */ = {
 			isa = PBXGroup;
 			children = (
+				9400EFDE2B76982400D42814 /* Sounds */,
 				9400EFD82B76914700D42814 /* Model */,
 				9400EFD72B76914300D42814 /* ViewModel */,
 				9400EFD62B76913A00D42814 /* Views */,
@@ -166,6 +205,56 @@
 				9400EFDC2B76965300D42814 /* RandomInt.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9400EFDE2B76982400D42814 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				9400EFE12B76983B00D42814 /* Digit Sounds */,
+				9400EFE02B76982E00D42814 /* Success */,
+				9400EFDF2B76982900D42814 /* Incorrect */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		9400EFDF2B76982900D42814 /* Incorrect */ = {
+			isa = PBXGroup;
+			children = (
+				9400EFE32B76986C00D42814 /* incorrectAnswer.aiff */,
+				9400EFE42B76986C00D42814 /* OhNo.aiff */,
+				9400EFE22B76986B00D42814 /* weak.aiff */,
+			);
+			path = Incorrect;
+			sourceTree = "<group>";
+		};
+		9400EFE02B76982E00D42814 /* Success */ = {
+			isa = PBXGroup;
+			children = (
+				9400EFEA2B76988800D42814 /* awesome.aiff */,
+				9400EFEC2B76988800D42814 /* bell.aiff */,
+				9400EFE92B76988800D42814 /* correct.aiff */,
+				9400EFEB2B76988800D42814 /* whoop.aiff */,
+				9400EFE82B76988800D42814 /* yes.aiff */,
+			);
+			path = Success;
+			sourceTree = "<group>";
+		};
+		9400EFE12B76983B00D42814 /* Digit Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				9400EFF72B76989700D42814 /* eight.aiff */,
+				9400EFF92B76989700D42814 /* five.aiff */,
+				9400EFF32B76989700D42814 /* four.aiff */,
+				9400EFF42B76989700D42814 /* nine.aiff */,
+				9400EFFC2B76989700D42814 /* one.aiff */,
+				9400EFF62B76989700D42814 /* seven.aiff */,
+				9400EFF52B76989700D42814 /* six.aiff */,
+				9400EFFA2B76989700D42814 /* ten.aiff */,
+				9400EFF22B76989700D42814 /* three.aiff */,
+				9400EFFB2B76989700D42814 /* two.aiff */,
+				9400EFF82B76989700D42814 /* zero.aiff */,
+			);
+			path = "Digit Sounds";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,7 +362,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				9400EFB22B768CA600D42814 /* Preview Assets.xcassets in Resources */,
+				9400F0032B76989700D42814 /* zero.aiff in Resources */,
+				9400F0062B76989700D42814 /* two.aiff in Resources */,
+				9400EFFD2B76989700D42814 /* three.aiff in Resources */,
+				9400F0042B76989700D42814 /* five.aiff in Resources */,
+				9400EFEF2B76988800D42814 /* awesome.aiff in Resources */,
+				9400EFEE2B76988800D42814 /* correct.aiff in Resources */,
+				9400F0002B76989700D42814 /* six.aiff in Resources */,
+				9400EFE72B76986C00D42814 /* OhNo.aiff in Resources */,
+				9400EFE62B76986C00D42814 /* incorrectAnswer.aiff in Resources */,
 				9400EFAF2B768CA600D42814 /* Assets.xcassets in Resources */,
+				9400F0012B76989700D42814 /* seven.aiff in Resources */,
+				9400EFFF2B76989700D42814 /* nine.aiff in Resources */,
+				9400EFF12B76988800D42814 /* bell.aiff in Resources */,
+				9400F0072B76989700D42814 /* one.aiff in Resources */,
+				9400F0052B76989700D42814 /* ten.aiff in Resources */,
+				9400EFE52B76986C00D42814 /* weak.aiff in Resources */,
+				9400EFFE2B76989700D42814 /* four.aiff in Resources */,
+				9400EFF02B76988800D42814 /* whoop.aiff in Resources */,
+				9400EFED2B76988800D42814 /* yes.aiff in Resources */,
+				9400F0022B76989700D42814 /* eight.aiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
