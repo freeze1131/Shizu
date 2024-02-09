@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct ShizuApp: App {
+    @State private var gvm: GameViewModel = GameViewModel()
     var body: some Scene {
+        
+        
         WindowGroup {
-            ContentView()
+            MainView()
+                .environment(gvm)
         }
     }
 }

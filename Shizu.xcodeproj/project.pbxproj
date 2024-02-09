@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9400EFAB2B768CA500D42814 /* ShizuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9400EFAA2B768CA500D42814 /* ShizuApp.swift */; };
-		9400EFAD2B768CA500D42814 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9400EFAC2B768CA500D42814 /* ContentView.swift */; };
+		9400EFAD2B768CA500D42814 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9400EFAC2B768CA500D42814 /* MainView.swift */; };
 		9400EFAF2B768CA600D42814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9400EFAE2B768CA600D42814 /* Assets.xcassets */; };
 		9400EFB22B768CA600D42814 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9400EFB12B768CA600D42814 /* Preview Assets.xcassets */; };
 		9400EFBC2B768CA600D42814 /* ShizuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9400EFBB2B768CA600D42814 /* ShizuTests.swift */; };
@@ -59,7 +59,7 @@
 /* Begin PBXFileReference section */
 		9400EFA72B768CA500D42814 /* Shizu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shizu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9400EFAA2B768CA500D42814 /* ShizuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShizuApp.swift; sourceTree = "<group>"; };
-		9400EFAC2B768CA500D42814 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9400EFAC2B768CA500D42814 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		9400EFAE2B768CA600D42814 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9400EFB12B768CA600D42814 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9400EFB72B768CA600D42814 /* ShizuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShizuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -181,7 +181,7 @@
 		9400EFD62B76913A00D42814 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				9400EFAC2B768CA500D42814 /* ContentView.swift */,
+				9400EFAC2B768CA500D42814 /* MainView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -410,7 +410,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9400F0092B76998C00D42814 /* GameViewModel.swift in Sources */,
-				9400EFAD2B768CA500D42814 /* ContentView.swift in Sources */,
+				9400EFAD2B768CA500D42814 /* MainView.swift in Sources */,
 				9400EFDD2B76965300D42814 /* RandomInt.swift in Sources */,
 				9400EFDA2B76916400D42814 /* GameModel.swift in Sources */,
 				9400EFD52B768CE400D42814 /* Max.swift in Sources */,
