@@ -33,11 +33,10 @@ struct GameModel {
     }
     //Generate next problem
     
-    //TODO: Need to implement
+
     mutating func generateNewProblem() {
-        // TODO: Implement this part
         // create and array of four different values between 0 and 99
-        alternatives = [31,62,93,32]
+        alternatives = Int.generateUniqueRandomInt(count: 4)
         // Let the last alternative be the answer
         answer = alternatives[3]
         
@@ -46,6 +45,8 @@ struct GameModel {
     }
     
     static var defaultGameModel: GameModel{
-        .init(score: 0, maxTurns: 5, volume: 0.7, turns: 0, answer: 10, alternatives: [31,62,93,32])
+        .init(score: 0, maxTurns: 5, volume: 0.7, turns: 0, answer: 10, alternatives: Int.generateUniqueRandomInt(count: 4).shuffled())
     }
+    
+    
 }

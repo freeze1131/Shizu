@@ -16,6 +16,7 @@
 		9400EFC82B768CA600D42814 /* ShizuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9400EFC72B768CA600D42814 /* ShizuUITestsLaunchTests.swift */; };
 		9400EFD52B768CE400D42814 /* Max.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9400EFD42B768CE400D42814 /* Max.swift */; };
 		9400EFDA2B76916400D42814 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9400EFD92B76916400D42814 /* GameModel.swift */; };
+		9400EFDD2B76965300D42814 /* RandomInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9400EFDC2B76965300D42814 /* RandomInt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		9400EFC72B768CA600D42814 /* ShizuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShizuUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9400EFD42B768CE400D42814 /* Max.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Max.swift; sourceTree = "<group>"; };
 		9400EFD92B76916400D42814 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		9400EFDC2B76965300D42814 /* RandomInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomInt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				9400EFD82B76914700D42814 /* Model */,
 				9400EFD72B76914300D42814 /* ViewModel */,
 				9400EFD62B76913A00D42814 /* Views */,
+				9400EFDB2B76964000D42814 /* Extensions */,
 				9400EFAA2B768CA500D42814 /* ShizuApp.swift */,
 				9400EFAE2B768CA600D42814 /* Assets.xcassets */,
 				9400EFB02B768CA600D42814 /* Preview Content */,
@@ -155,6 +158,14 @@
 				9400EFD92B76916400D42814 /* GameModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		9400EFDB2B76964000D42814 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9400EFDC2B76965300D42814 /* RandomInt.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9400EFAD2B768CA500D42814 /* ContentView.swift in Sources */,
+				9400EFDD2B76965300D42814 /* RandomInt.swift in Sources */,
 				9400EFDA2B76916400D42814 /* GameModel.swift in Sources */,
 				9400EFD52B768CE400D42814 /* Max.swift in Sources */,
 				9400EFAB2B768CA500D42814 /* ShizuApp.swift in Sources */,
