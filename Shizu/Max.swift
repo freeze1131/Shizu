@@ -8,6 +8,12 @@
 import Foundation
 
 
-func max(x: Int, y: Int,z: Int) -> Int {
-    return 10
+func myMax(x: Int, y: Int,z: Int) -> Int {
+    if x >= y && x>=z {
+        return x
+    } else if y >= x && y>=z {
+        return y
+    } else {
+        return z
+    }
 }
