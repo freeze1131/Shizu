@@ -13,16 +13,33 @@ final class ShizuTests: XCTestCase {
 
     func testMax() throws {
         // Setup data
-        let data1 = (x:3,y:11,z:7)
+        let dataArray = [
+            (x:3,y:10,z:7),
+            (x:3,y:7,z:10),
+            (x:7,y:10,z:3),
+            (x:7,y:3,z:10),
+            (x:10,y:3,z:7),
+            (x:10,y:7,z:3),
+            (x:5,y:5,z:5),
+            (x:-15,y:15,z:0)
+        ]
         
         // Expected values
-       let expectedValue1 = 11
-        
-        
-        
+       let expectedValues = [
+        10,10,10,10,10,10,5,15
+       ]
         
         // Test
-        XCTAssertEqual(expectedValue1, myMax(x: data1.x, y: data1.y, z: data1.z))
+        for i in 0..<dataArray.count {
+            let data = dataArray[i]
+            let expectedValue = expectedValues[i]
+            let evaluatedValue = myMax(x: data.x, y: data.y, z: data.z)
+            
+            XCTAssertEqual(expectedValue, evaluatedValue)
+        }
+        
+        
+      
         
     }
 }
