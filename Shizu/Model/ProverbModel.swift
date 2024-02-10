@@ -9,7 +9,7 @@ import Foundation
 
 // https://chinese-proverbs.onrender.com/api/proverbs/random
 
-//let proverbModel = try? JSONDecoder().decode(ProverbModel.self, from: jsonData)
+
 
 struct ProverbModel: Codable {
     let id, proverb, pinyin, translation: String
