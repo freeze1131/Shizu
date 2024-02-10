@@ -55,7 +55,7 @@ struct SplashScreenView: View {
                     Spacer()
                     Button(action: {
                         withAnimation {
-                            isPresented.toggle()
+                            isPresented = false
                         }
                     }, label: {
                         Image("friend")

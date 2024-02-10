@@ -20,4 +20,5 @@ struct ContainerView: View {
 
 #Preview {
     ContainerView()
+        .environment(GameViewModel())
 }

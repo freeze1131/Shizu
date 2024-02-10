@@ -20,7 +20,7 @@ struct ProverbModel: Codable {
     }
 
     static func defaultQuote() -> ProverbModel {
-        ProverbModel(id: "63e6ae053bd28e8c186fdf8a", proverb: "家和万事兴", pinyin: "Jiā hé wàn shì xīng", translation: "If a family is harmonious everything will go well.")
+        ProverbModel(id: "", proverb: "", pinyin: "", translation: "")
     }
     
 }

@@ -14,7 +14,7 @@ struct ShizuApp: App {
         
         
         WindowGroup {
-            MainView()
+            ContainerView()
                 .environment(gvm)
         }
     }
