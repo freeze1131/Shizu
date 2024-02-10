@@ -23,6 +23,24 @@ struct MainView: View {
             }, label: {
                 Text("Incorrect")
             })
+            
+            Button(action: {
+                gvm.playNumber(num: 7 )
+            }, label: {
+                Text("Number 7")
+            })
+            
+            Button(action: {
+                gvm.playNumber(num: 30 )
+            }, label: {
+                Text("Number 30")
+            })
+            
+            Button(action: {
+                gvm.playNumber(num: 74 )
+            }, label: {
+                Text("Number 74")
+            })
         }
         .padding()
     }
