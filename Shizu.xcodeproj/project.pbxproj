@@ -44,6 +44,7 @@
 		940EECF72B778353005E5F75 /* ProverbViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940EECF62B778353005E5F75 /* ProverbViewModel.swift */; };
 		940EECF92B7785BB005E5F75 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940EECF82B7785BB005E5F75 /* SplashScreenView.swift */; };
 		940EECFB2B7785E2005E5F75 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940EECFA2B7785E2005E5F75 /* ContainerView.swift */; };
+		940EECFD2B778877005E5F75 /* VeryCoolTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940EECFC2B778877005E5F75 /* VeryCoolTextView.swift */; };
 		94E1408C2B77671D0097BEBB /* GearIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E1408B2B77671D0097BEBB /* GearIconView.swift */; };
 		94E1408E2B7769160097BEBB /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E1408D2B7769160097BEBB /* ScoreView.swift */; };
 		94E140902B7769AF0097BEBB /* PinyinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E1408F2B7769AF0097BEBB /* PinyinView.swift */; };
@@ -109,6 +110,7 @@
 		940EECF62B778353005E5F75 /* ProverbViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProverbViewModel.swift; sourceTree = "<group>"; };
 		940EECF82B7785BB005E5F75 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		940EECFA2B7785E2005E5F75 /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
+		940EECFC2B778877005E5F75 /* VeryCoolTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeryCoolTextView.swift; sourceTree = "<group>"; };
 		94E1408B2B77671D0097BEBB /* GearIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearIconView.swift; sourceTree = "<group>"; };
 		94E1408D2B7769160097BEBB /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
 		94E1408F2B7769AF0097BEBB /* PinyinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinyinView.swift; sourceTree = "<group>"; };
@@ -215,6 +217,7 @@
 				940EECF22B777F50005E5F75 /* SettingsView.swift */,
 				940EECF82B7785BB005E5F75 /* SplashScreenView.swift */,
 				940EECFA2B7785E2005E5F75 /* ContainerView.swift */,
+				940EECFC2B778877005E5F75 /* VeryCoolTextView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -467,6 +470,7 @@
 				9400EFDA2B76916400D42814 /* GameModel.swift in Sources */,
 				9400EFD52B768CE400D42814 /* Max.swift in Sources */,
 				9400EFAB2B768CA500D42814 /* ShizuApp.swift in Sources */,
+				940EECFD2B778877005E5F75 /* VeryCoolTextView.swift in Sources */,
 				94E140952B776E460097BEBB /* Chinese.swift in Sources */,
 				940EECF52B7781DC005E5F75 /* ProverbModel.swift in Sources */,
 				940EECF32B777F50005E5F75 /* SettingsView.swift in Sources */,
