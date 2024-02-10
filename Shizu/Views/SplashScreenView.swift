@@ -19,15 +19,15 @@ struct SplashScreenView: View {
     var vm = ProverbViewModel()
     
     var chinese: String {
-        "chinese"
+        vm.proverbModel.proverb
     }
     
     var pinyin: String {
-        "pinyin"
+        vm.proverbModel.pinyin
     }
     
     var translation: String {
-        "english"
+        vm.proverbModel.translation
     }
     
     
@@ -73,6 +73,8 @@ struct SplashScreenView: View {
             }
         }
         .onAppear{
+            vm.getRandomQuote()
+            
             withAnimation(.linear(duration: 2.5)) {
                 opacity = 0.8
                 scale = CGSize(width: 1, height: 1 )
