@@ -23,7 +23,7 @@ struct GameModel {
     }
     
     // Score code
-   mutating func inscreaseScore() {
+   mutating func increaseScore() {
         score += 1
     }
     
@@ -45,7 +45,7 @@ struct GameModel {
     }
     
     static var defaultGameModel: GameModel{
-        .init(score: 0, maxTurns: 5, volume: 0.7, turns: 0, answer: 10, alternatives: Int.generateUniqueRandomInt(count: 4).shuffled())
+        .init(score: 0, maxTurns: 5, volume: 0.7, turns: 0, answer: 10, alternatives: [42,13,7,10].shuffled())
     }
     
     
