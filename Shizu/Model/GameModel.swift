@@ -44,6 +44,11 @@ struct GameModel {
         alternatives = alternatives.shuffled()
     }
     
+    mutating func restart() {
+        score = 0
+        turns = 0
+    }
+    
     static var defaultGameModel: GameModel{
         .init(score: 0, maxTurns: 5, volume: 0.7, turns: 0, answer: 10, alternatives: [42,13,7,10].shuffled())
     }
