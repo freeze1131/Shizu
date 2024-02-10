@@ -20,6 +20,19 @@ struct MainView: View {
                 
                 PinyinView(showingTranslation: $showTranslation)
                     .padding()
+                if let chineseNum = Chinese.numToChinese(num: gvm.gameModel.answer){
+                    
+                    Spacer()
+                    Text(chineseNum.chinese)
+                        .font(.largeTitle)
+                        .fontWeight(.semibold)
+                    if showTranslation {
+                        Text(chineseNum.pinyin)
+                            .font(.largeTitle)
+                            .fontWeight(.semibold)
+                    }
+                }
+               
                 Spacer()
             }
             .padding()
